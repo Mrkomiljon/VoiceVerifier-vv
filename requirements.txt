@@ -1,0 +1,17 @@
+fastapi==0.110.0
+uvicorn==0.29.0
+
+torch>=2.0.0
+torchaudio>=2.0.0
+
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.2
+tqdm>=4.66.0
+
+# Silence removal (Silero VAD uses torch.hub)
+# SpeechBrain for ECAPA-TDNN embedding
+speechbrain==0.5.14
+
+# Optional: for evaluation and cosine metrics
+scipy>=1.11.0
